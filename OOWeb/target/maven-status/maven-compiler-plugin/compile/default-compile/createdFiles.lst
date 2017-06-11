@@ -1,0 +1,8 @@
+br\com\munif\ooweb\Liquidificador.class
+br\com\munif\ooweb\Descritivel.class
+br\com\munif\ooweb\Jogador.class
+br\com\munif\ooweb\Lugar.class
+br\com\munif\ooweb\Mapa.class
+br\com\munif\ooweb\Personagem.class
+br\com\munif\ooweb\NPC.class
+br\com\munif\ooweb\LiqException.class

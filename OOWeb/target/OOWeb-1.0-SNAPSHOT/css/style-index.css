@@ -1,0 +1,56 @@
+body {
+    background: #EEE;
+    text-align: center;
+    font-family: "Tahoma", sans-serif;
+    line: 1.5em;
+    padding: 0;
+    margin: 0;    
+}
+
+form  {
+    padding: 40px;
+    max-width:600px;
+    margin:40px auto;
+    border-top: 5px solid null;
+    box-shadow: 0 0 3px;
+    border-radius: 4px;
+    background: #FFF;
+}
+
+h1 {
+    background: #2F4F4F;
+    color: #FFF;
+    font-size: 3.2em;
+    font-weight: 300;
+    transition:all 0.25s ease;
+}
+
+input {
+    font-size:22px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0.3em 0px;
+ 
+}
+
+label { 
+    transition:all 0.25s ease;
+    font-size:24px;
+    width: 100%;
+    margin: 10px 0px;
+    font-family: sans-serif, "Tahoma";  
+}
+
+
+[type="submit"] {
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition:all 0.25s ease;
+    font-family: "Tahoma";
+}
