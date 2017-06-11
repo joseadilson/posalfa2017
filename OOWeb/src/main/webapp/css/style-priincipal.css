@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
+
+body {
+    background: #E9E9E9;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+h1 {
+    /*background: #FF0;*/
+    position: relative;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Vollkorn',serif ;    
+}
+
+h2 {
+    /*background: #F0F;*/
+    position: relative;
+    text-align: center;
+    font-family: "Tahoma"; 
+    font-size: 1.2em;
+
+}
+
+h3 {
+    /*background: #FF0;*/
+    position: relative;
+    text-align: center;
+    font-family: "Tahoma"; 
+    font-size: 1em;
+}
+
+h4 {
+    position: absolute;
+    bottom: 0;
+    background: #F8F8F8;
+    width: 99%;
+    height: 200px;
+    overflow: scroll;
+    text-overflow:ellipsis;
+    margin: 250px 10px;
+}
+
+pre {    
+    background: #F00;   
+    bottom: 0;
+    position: absolute;
+    margin: 120px 10px;
+}
+pre {
+    background-color: #E9E9E9;
+    border: 1px solid #000;
+    
+}
+
+[type="number"] {
+    width: 213px;
+    position: absolute;
+    background-color: #F5F5DC;
+    bottom: 0;
+    line-height: 34px;
+    margin: 60px 10px;
+    size: 16px;   
+    border-radius: 6px;
+    font-size:22px;
+}
+
+[type="text"] {
+    width: 90%;
+    position: absolute;
+    background-color: #F5F5DC;
+    bottom: 0;
+    line-height: 34px;
+    margin: 10px;
+    size: 16px;   
+    border-radius: 6px;
+    font-size:22px;
+}
+
+[type="submit"] {
+    width: 8%;
+    position: absolute;   
+    color:white;
+    line-height: 34px;
+    background: #34495E;
+    font-size:22px;
+    text-align: center;
+    bottom: 0;
+    right: 0;     
+    margin: 10px;
+    border-radius: 6px;
+    size: 16px;      
+}

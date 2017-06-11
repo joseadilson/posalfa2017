@@ -1,8 +1,7 @@
 body {
     background: #EEE;
     text-align: center;
-    font-family: "Tahoma", sans-serif;
-    line: 1.5em;
+    font-family: "Tahoma", sans-serif;    
     padding: 0;
     margin: 0;    
 }
@@ -11,7 +10,7 @@ form  {
     padding: 40px;
     max-width:600px;
     margin:40px auto;
-    border-top: 5px solid null;
+    border-top: 5px;
     box-shadow: 0 0 3px;
     border-radius: 4px;
     background: #FFF;
@@ -40,7 +39,6 @@ label {
     margin: 10px 0px;
     font-family: sans-serif, "Tahoma";  
 }
-
 
 [type="submit"] {
     width: 100%;

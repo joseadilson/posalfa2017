@@ -15,7 +15,7 @@
     }
     Lugar lc = jogador.getLugar();
     if (mensagem != null && mensagem.trim().length() > 0) {
-        lc.getMensagens().add(jogador.getNome() + ":" + mensagem);
+        lc.getMensagens().add(jogador.getNome() + ":" + mensagem+"</br>");
     }
 
     if (movimento != null && movimento.trim().length() > 0) {
@@ -38,7 +38,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
-        <link rel="stylesheet" href="css/style-principal.css"/>
+        <link rel="stylesheet" href="css/style-priincipal.css"/>
+         <script text="text/javascript" src="js/arquivo.js"></script>
         <title>Jogo 2017</title>
     </head>
     <body>
@@ -48,18 +49,18 @@
         %>
 
         
-
         <h2>Você está no(a):
             <%=jogador.getLugar().getDescricao()%></h2>
+            
         <h3>Com:
-            <%=jogador.getLugar().getPersonagens()%></h2>
-
+            <%=jogador.getLugar().getPersonagens()%></h3>
+            
         <h4>Mensagens
-            <%=jogador.getLugar().getMensagens()%></h2>
+            <%=jogador.getLugar().getMensagens()%></h4>
 
-
-        <pre><%
-
+               
+        <pre><%   
+            out.println("Escolha uma das opções abaixo:");
             if (lc.getLeste() != null) {
                 out.println("1) Para leste " + lc.getLeste().getDescricao());
             }
@@ -72,12 +73,11 @@
             if (lc.getSul() != null) {
                 out.println("4) Para Sul " + lc.getSul().getDescricao());
             } 
-
             %>
         </pre>
         <form method="POST" action="principal.jsp">
-            Movimento:<input type="number" name="movimento" value=""/><br/>
-            Mensagem:<input type="text" name="mensagem" value="" /><br/>
+            <input type="number" name="movimento" value="" placeholder="Movimento"/>
+            <input type="text" name="mensagem" value="" placeholder="Mensagem..."/>
             <input type="submit" value="Enviar" />
         </form>
 </body>
